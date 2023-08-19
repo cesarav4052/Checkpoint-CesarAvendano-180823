@@ -1,0 +1,31 @@
+    1  git init
+    2  git remote add origin https://github.com/cesarav4052/Checkpoint-CesarAvendano-180823.git
+    3  git remote -v
+    4  touch main.js index.html
+    5  git add .
+    6  git commit -m "commit 01 de CesarAvendano"
+    7  git push origin main
+    8  git push origin master
+    9  git branch feature
+   10  git checkout feature
+   11  mkdir Hardware Software SeguridadInformatica
+   12  cd Hardware
+   13  touch resumen.txt
+   14  cd..
+   15  cd ..
+   16  cd SeguridadInformatica
+   17  touch resumen.txt
+   18  cd ..
+   19  cd Software
+   20  touch resumen.txt
+   21  git add .
+   22  git commit -m "commit 02 de CesarAvendano"
+   23  git push origin feature
+   24  git checkout master
+   25  mv main.js resumenHardware.txt
+   26  cd ..
+   27  mv main.js resumenHardware.txt
+   28  mv index.html resumenSoftware.txt
+   29  nano resumenSoftware.txt
+   30  nano resumenHardware.txt
+   31  history 100 > comandos.txt
